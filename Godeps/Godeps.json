@@ -1,7 +1,7 @@
 {
 	"ImportPath": "npweb",
 	"GoVersion": "go1.6",
-	"GodepVersion": "v63",
+	"GodepVersion": "v67",
 	"Deps": [
 		{
 			"ImportPath": "github.com/gin-gonic/gin",
