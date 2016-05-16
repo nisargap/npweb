@@ -1,0 +1,23 @@
+{
+  "name": "assets",
+  "homepage": "https://github.com/nisargap/npweb",
+  "authors": [
+    "Nisarga Patel <np8@umbc.edu>"
+  ],
+  "description": "assets for web server",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "react": "^15.0.2",
+    "semantic": "semantic-ui#^2.1.8"
+  }
+}
