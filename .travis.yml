@@ -7,8 +7,7 @@ install:
     - godep restore
     - make
 notifications:
-    email: 
-        - np8@umbc.edu
+    email: false
 script:
     - go test
 
