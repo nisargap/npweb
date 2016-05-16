@@ -6,6 +6,9 @@ install:
     - go get github.com/tools/godep
     - godep restore
     - make
+notifications:
+    email: 
+        - np8@umbc.edu
 script:
     - go test
 
