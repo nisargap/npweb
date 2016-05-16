@@ -5,6 +5,7 @@ install: prepare
 
 prepare: 
 	go get github.com/tools/godep
+	godep save
 
 build: prepare
 	godep go build
