@@ -1,6 +1,11 @@
 language: go
 
-go:
-    - 1.6
+go: 1.6.2
 
+install:
+    - go get github.com/tools/godep
+    - godep restore
+    - make
+script:
+    - go test
 
