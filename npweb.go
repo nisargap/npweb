@@ -1,4 +1,5 @@
 // Created By: Nisarga Patel
+// Updated
 
 package main
 
@@ -34,6 +35,5 @@ func main() {
 	r.LoadHTMLGlob("templates/*")
 	r.GET("/", index)
 	r.Run() // listen and server on 0.0.0.0:8080
-	
 
 }
