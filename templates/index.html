@@ -1,8 +1,17 @@
 {{ define "index" }}
+<!doctype html>
 <html>
-	{{ template "head" }}	
-	<h1>
-		{{ .title }}
-	</h1>
+	<head>
+		{{ template "head" }}
+	</head>
+	<body>
+
+		<div id="index" class="container"></div>
+
+		<script type="text/babel" src="assets/react-components/menu.jsx"></script>
+		<script type="text/babel" src="assets/react-components/login.jsx"></script>
+		<script type="text/babel" src="assets/react-dom/index.jsx"></script>
+		{{ template "scripts" }}
+	</body>
 </html>
 {{ end }}
